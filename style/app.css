@@ -7,8 +7,6 @@ body{
 
 }
 img{
-
-
     background-color: white;
 }
 .menu{
@@ -17,6 +15,11 @@ img{
 .menu ul li {
     display: inline;
     margin-left: 10px;
+    color: orangered;
+
+}
+.menu ul li.active{
+    color: black;
 }
 
 .login-container{
@@ -25,7 +28,7 @@ img{
     border-radius: 20px;
     background-color: cadetblue;
     position: absolute;
-    top:50vh;
+    top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -33,6 +36,7 @@ img{
 .login-form {
     text-align: center;
     margin-top: 80px;
+    font-size: 20px;
 
 }
 
@@ -40,7 +44,7 @@ img{
     border-radius: 50px;
     background-color: darkgray;
     border: none;
-    padding: 0px 10px;
+    padding: 4px 14px;
 }
 
 .loginmenu{
@@ -57,7 +61,7 @@ img{
     border-right: 1px solid grey;
 }
 .login-button{
-    background-color: lightgreen;
+    background-color: mediumseagreen;
     border-radius: 50px;
     border:none;
     padding: 5px 15px;
